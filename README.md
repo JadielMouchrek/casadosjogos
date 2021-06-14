@@ -1,4 +1,4 @@
-# Lojajogos
+# WebSite - Casa dos Jogos
 
 Projeto para criação de website de consulta de jogos, nos site o usuários encontrará informações e imagens de jogos, podendo inserir seus comentários sobre o assunto.
 
