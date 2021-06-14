@@ -1,0 +1,25 @@
+<table class = "table table-striped table-dark">
+      <thead>
+      <tr>
+         <th scope="col">Nome</th>
+         <th scope="col">Email</th>  
+         <th scope="col">Valor</th>
+         <th scope="col">Fabricação</th>
+      </tr>
+
+      </thead>
+
+      <tbody>
+         <tr *ngFor= 'let p1 of produtos ' >
+         
+            <td>{{p1.nome|uppercase}}</td>
+            <td>{{p1.email|lowercase}}</td>  
+            <td>{{p1.valor|currency: 'BRL'}}</td>
+            <td>{{p1.fabricacao| date}}</td>
+
+      
+
+         </tr>
+   
+    </tbody>
+</table>
